@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "oreganized",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "default_silver"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oreganized:raw_silver"
+    }
+  ],
+  "result": {
+    "id": "spelunkery:raw_silver_nugget",
+    "count": 9
+  }
+}

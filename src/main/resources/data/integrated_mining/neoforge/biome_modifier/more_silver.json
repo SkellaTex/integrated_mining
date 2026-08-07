@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "oreganized",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "spelunkery",
+        "type": "neoforge:mod_loaded"
+      }
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "more_silver"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "default_silver"
+      }
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "integrated_mining:more_silver_spelunkery",
+    "integrated_mining:more_silver_extra_spelunkery"
+  ],
+  "step": "underground_ores"
+}

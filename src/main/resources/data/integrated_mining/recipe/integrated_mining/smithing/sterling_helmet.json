@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "old_sterling"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "galosphere:palladium_ingot"
+  },
+  "base": {
+    "item": "minecraft:leather_helmet"
+  },
+  "result": {
+    "count": 1,
+    "id": "galosphere:sterling_helmet"
+  },
+  "template": {
+    "item": "integrated_mining:palladium_upgrade_smithing_template"
+  }
+}

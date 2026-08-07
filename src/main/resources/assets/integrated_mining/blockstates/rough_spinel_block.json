@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "integrated_mining:block/rough_spinel_block"
+    }
+  }
+}

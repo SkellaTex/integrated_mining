@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "oreganized:electrum_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_hoe",
+      "required": false
+    }
+  ]
+}

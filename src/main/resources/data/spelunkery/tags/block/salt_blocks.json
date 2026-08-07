@@ -1,0 +1,172 @@
+{
+  "values": [
+    {
+      "id": "galosphere:pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_rose_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pastel_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pink_salt_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_rose_pink_salt_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pastel_pink_salt_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pink_salt_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_rose_pink_salt_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pastel_pink_salt_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pink_salt_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_rose_pink_salt_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:polished_pastel_pink_salt_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_bricks",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_bricks",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_bricks",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_brick_slab",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:rose_pink_salt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:pastel_pink_salt_brick_wall",
+      "required": false
+    },
+    {
+      "id": "galosphere:chiseled_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:chiseled_rose_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:chiseled_pastel_pink_salt",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_lamp",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_straw",
+      "required": false
+    },
+    {
+      "id": "galosphere:pink_salt_cluster",
+      "required": false
+    }
+  ]
+}

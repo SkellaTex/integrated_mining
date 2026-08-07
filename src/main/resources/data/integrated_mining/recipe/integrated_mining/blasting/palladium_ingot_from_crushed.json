@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "integrated_mining:crushed_raw_palladium"
+  },
+  "result": {
+    "id": "galosphere:palladium_ingot"
+  }
+}

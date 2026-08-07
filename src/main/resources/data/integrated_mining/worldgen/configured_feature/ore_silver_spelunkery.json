@@ -1,0 +1,85 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spelunkery"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 9,
+    "targets": [
+      {
+        "state": {
+          "Name": "caverns_and_chasms:silver_ore"
+        },
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        }
+      },
+      {
+        "state": {
+          "Name": "spelunkery:andesite_silver_ore"
+        },
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        }
+      },
+      {
+        "state": {
+          "Name": "spelunkery:diorite_silver_ore"
+        },
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        }
+      },
+      {
+        "state": {
+          "Name": "spelunkery:granite_silver_ore"
+        },
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:granite"
+          }
+        }
+      },
+      {
+        "state": {
+          "Name": "spelunkery:tuff_silver_ore"
+        },
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:tuff"
+          }
+        }
+      },
+      {
+        "state": {
+          "Name": "caverns_and_chasms:deepslate_silver_ore"
+        },
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "oreganized",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "default_silver"
+      }
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "spelunkery:silver_ores"
+  },
+  "result": {
+    "id": "oreganized:silver_ingot"
+  },
+  "type": "minecraft:smelting"
+}

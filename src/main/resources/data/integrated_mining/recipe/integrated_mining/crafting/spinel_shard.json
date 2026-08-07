@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:spinel"
+    }
+  ],
+  "result": {
+    "id": "integrated_mining:spinel_shard",
+    "count": 9
+  }
+}

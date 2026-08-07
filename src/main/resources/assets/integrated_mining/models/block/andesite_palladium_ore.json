@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "integrated_mining:block/andesite_palladium_ore"
+  }
+}

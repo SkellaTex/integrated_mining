@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "integrated_mining:andesite_tin_ore",
+    "integrated_mining:diorite_tin_ore",
+    "integrated_mining:granite_tin_ore",
+    "integrated_mining:tuff_tin_ore"
+  ]
+}

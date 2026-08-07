@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "default_silver"
+    }
+  ],
+  "cookingtime": 23,
+  "experience": 0.1,
+  "group": "silver_nugget",
+  "ingredient": {
+    "item": "spelunkery:raw_silver_nugget"
+  },
+  "result": {
+    "id": "caverns_and_chasms:silver_nugget"
+  },
+  "type": "minecraft:smelting"
+}

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "cookingtime": 23,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "integrated_mining:raw_palladium_nugget"
+  },
+  "result": {
+    "count": 1,
+    "id": "galosphere:palladium_nugget"
+  }
+}

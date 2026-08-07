@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:raw_tin"
+    }
+  ],
+  "result": {
+    "id": "integrated_mining:raw_tin_nugget",
+    "count": 9
+  }
+}

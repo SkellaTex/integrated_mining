@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "create",
+        "type": "neoforge:mod_loaded"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "caverns_and_chasms",
+        "type": "neoforge:mod_loaded"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "spelunkery:copper_nugget"
+    }
+  },
+  "result": {
+    "id": "minecraft:copper_ingot",
+    "count": 1
+  }
+}

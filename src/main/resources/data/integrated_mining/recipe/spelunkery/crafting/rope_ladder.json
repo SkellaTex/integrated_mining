@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "old_rope_ladder"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "---",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "spelunkery:tangle_roots"
+    },
+    "-": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "spelunkery:rope_ladder",
+    "count": 8
+  }
+}

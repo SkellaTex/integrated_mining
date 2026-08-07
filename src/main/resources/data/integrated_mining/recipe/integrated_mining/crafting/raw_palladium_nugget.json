@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "galosphere:raw_palladium"
+    }
+  ],
+  "result": {
+    "id": "integrated_mining:raw_palladium_nugget",
+    "count": 9
+  }
+}

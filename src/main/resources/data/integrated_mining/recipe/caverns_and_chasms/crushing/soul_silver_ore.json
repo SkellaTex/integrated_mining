@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:soul_silver_ore"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 18,
+      "id": "caverns_and_chasms:silver_nugget"
+    },
+    {
+      "chance": 0.75,
+      "id": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "id": "minecraft:soul_sand"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "cookingtime": 100,
+  "experience": 0.2,
+  "ingredient": {
+    "tag": "caverns_and_chasms:spinel_ores"
+  },
+  "result": {
+    "id": "caverns_and_chasms:spinel"
+  },
+  "type": "minecraft:blasting"
+}

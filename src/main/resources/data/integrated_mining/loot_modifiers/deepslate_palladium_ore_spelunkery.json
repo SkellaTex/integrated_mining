@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "galosphere:blocks/deepslate_palladium_ore"
+    }
+  ],
+  "table": "integrated_mining:blocks/deepslate_palladium_ore_spelunkery"
+}

@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "galosphere",
+        "type": "neoforge:mod_loaded"
+      }
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "spelunkery:salt"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "id": "spelunkery:rock_salt"
+    }
+  ],
+  "heatRequirement": "heated"
+}

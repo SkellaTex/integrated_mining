@@ -1,0 +1,10 @@
+{
+  "values": [
+    "galosphere:palladium_ore",
+    "galosphere:deepslate_palladium_ore",
+    "integrated_mining:andesite_palladium_ore",
+    "integrated_mining:diorite_palladium_ore",
+    "integrated_mining:granite_palladium_ore",
+    "integrated_mining:tuff_palladium_ore"
+  ]
+}

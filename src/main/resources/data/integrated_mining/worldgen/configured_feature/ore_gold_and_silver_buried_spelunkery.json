@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spelunkery"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    }
+  ],
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "integrated_mining:ore_gold_buried_spelunkery",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "integrated_mining:ore_silver_buried_spelunkery"
+      }
+    ]
+  }
+}

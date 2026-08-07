@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "default_silver"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": {
+    "tag": "caverns_and_chasms:silver_ores"
+  },
+  "result": {
+    "id": "caverns_and_chasms:silver_ingot"
+  },
+  "type": "minecraft:smelting"
+}

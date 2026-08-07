@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "caverns_and_chasms:tin_ores"
+  },
+  "result": {
+    "id": "caverns_and_chasms:tin_ingot"
+  },
+  "type": "minecraft:smelting"
+}

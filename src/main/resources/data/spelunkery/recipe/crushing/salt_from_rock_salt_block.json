@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "galosphere",
+        "type": "neoforge:mod_loaded"
+      }
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "spelunkery:rock_salt_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "spelunkery:rock_salt",
+      "count": 2
+    },
+    {
+      "id": "spelunkery:salt",
+      "count": 2
+    }
+  ],
+  "processingTime": 350
+}

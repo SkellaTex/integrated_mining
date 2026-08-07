@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "type": "blueprint:paletted_permutations",
+      "palette_key": "clayworks:entity/decorated_pot_trim_palettes/trim_palette",
+      "permutations": {
+        "oreganized_silver": "integrated_mining:entity/decorated_pot_trim_palettes/silver",
+        "oreganized_lead": "integrated_mining:entity/decorated_pot_trim_palettes/lead",
+        "oreganized_electrum": "integrated_mining:entity/decorated_pot_trim_palettes/electrum"
+      },
+      "sources": [
+        {
+          "type": "minecraft:directory",
+          "prefix": "entity/decorated_pot_trim_patterns/",
+          "source": "entity/decorated_pot_trim_patterns"
+        }
+      ]
+    }
+  ]
+}

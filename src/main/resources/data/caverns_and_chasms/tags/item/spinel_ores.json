@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "integrated_mining:andesite_spinel_ore",
+    "integrated_mining:diorite_spinel_ore",
+    "integrated_mining:granite_spinel_ore",
+    "integrated_mining:tuff_spinel_ore"
+  ]
+}

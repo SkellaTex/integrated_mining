@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "galosphere",
+        "type": "neoforge:mod_loaded"
+      }
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "spelunkery:rock_salt_block"
+  },
+  "result": {
+    "id": "spelunkery:polished_rock_salt_stairs",
+    "count": 1
+  }
+}

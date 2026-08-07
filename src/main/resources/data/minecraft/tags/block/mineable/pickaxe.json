@@ -1,0 +1,17 @@
+{
+  "values": [
+    "integrated_mining:rough_spinel_block",
+    "integrated_mining:andesite_spinel_ore",
+    "integrated_mining:diorite_spinel_ore",
+    "integrated_mining:granite_spinel_ore",
+    "integrated_mining:tuff_spinel_ore",
+    "integrated_mining:andesite_tin_ore",
+    "integrated_mining:diorite_tin_ore",
+    "integrated_mining:granite_tin_ore",
+    "integrated_mining:tuff_tin_ore",
+    "integrated_mining:andesite_palladium_ore",
+    "integrated_mining:diorite_palladium_ore",
+    "integrated_mining:granite_palladium_ore",
+    "integrated_mining:tuff_palladium_ore"
+  ]
+}

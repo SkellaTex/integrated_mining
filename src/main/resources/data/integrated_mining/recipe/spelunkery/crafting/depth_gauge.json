@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "ITI",
+    " N "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:copper_ingot"
+    },
+    "T": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "spelunkery:depth_gauge",
+    "count": 1
+  }
+}

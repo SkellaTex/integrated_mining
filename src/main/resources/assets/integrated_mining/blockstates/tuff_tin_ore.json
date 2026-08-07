@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "integrated_mining:block/tuff_tin_ore"
+    }
+  }
+}

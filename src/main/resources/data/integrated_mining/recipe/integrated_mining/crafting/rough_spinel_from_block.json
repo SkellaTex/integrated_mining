@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "integrated_mining:rough_spinel_block"
+    }
+  ],
+  "result": {
+    "id": "integrated_mining:rough_spinel",
+    "count": 9
+  }
+}

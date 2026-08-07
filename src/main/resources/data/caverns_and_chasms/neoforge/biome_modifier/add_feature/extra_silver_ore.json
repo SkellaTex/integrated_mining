@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "neoforge:remove_features",
+  "biomes": "#caverns_and_chasms:has_feature/extra_silver_ore",
+  "features": "caverns_and_chasms:ore_silver_extra",
+  "step": "underground_ores"
+}

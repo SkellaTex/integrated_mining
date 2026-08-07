@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "oreganized",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "integrated_mining:config",
+          "value": "default_silver"
+        },
+        {
+          "type": "integrated_mining:config",
+          "value": "more_silver"
+        }
+      ]
+    }
+  ],
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "oreganized:silver_ore",
+    "oreganized:silver_ore_extra"
+  ],
+  "step": "underground_ores"
+}

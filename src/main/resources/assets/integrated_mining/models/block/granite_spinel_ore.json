@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "integrated_mining:block/granite_spinel_ore"
+  }
+}

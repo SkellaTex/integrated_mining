@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+      {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "galosphere"
+          },
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "spelunkery"
+          }
+        ]
+      }
+    ],
+  "type": "neoforge:remove_features",
+  "biomes": "#spelunkery:has_salt_noise",
+  "features": [
+    "spelunkery:noise_salt",
+    "spelunkery:rock_salt"
+  ],
+  "step": "raw_generation"
+}

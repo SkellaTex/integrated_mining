@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "oreganized"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "caverns_and_chasms"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "default_silver"
+      }
+    }
+  ],
+  "repaletter": {
+    "type": "blueprint:simple",
+    "replaces_block": "caverns_and_chasms:silver_ingot",
+    "replaces_with": "caverns_and_chasms:tin_ingot"
+  },
+  "structures": "caverns_and_chasms:vault"
+}

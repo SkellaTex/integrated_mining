@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "old_sterling"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "galosphere:palladium_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "galosphere:sterling_boots"
+  }
+}

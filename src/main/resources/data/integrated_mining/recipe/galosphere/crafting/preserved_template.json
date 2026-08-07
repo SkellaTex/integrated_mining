@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "preserved_template_recipe"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "galosphere:pink_salt_shard"
+    },
+    "T": {
+      "item": "galosphere:preserved_template"
+    }
+  },
+  "pattern": [
+    "INI",
+    "ITI",
+    "III"
+  ],
+  "result": {
+    "count": 2,
+    "id": "galosphere:preserved_template"
+  }
+}

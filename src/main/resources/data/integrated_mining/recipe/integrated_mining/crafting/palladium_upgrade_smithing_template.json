@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "old_sterling"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "minecraft:planks"
+    },
+    "N": {
+      "item": "integrated_mining:palladium_upgrade_smithing_template"
+    },
+    "T": {
+      "item": "galosphere:palladium_ingot"
+    }
+  },
+  "pattern": [
+    "INI",
+    "ITI",
+    "III"
+  ],
+  "result": {
+    "count": 2,
+    "id": "integrated_mining:palladium_upgrade_smithing_template"
+  }
+}

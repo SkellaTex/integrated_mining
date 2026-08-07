@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "default_silver"
+    }
+  ],
+  "type": "neoforge:add_features",
+  "biomes": "#caverns_and_chasms:has_feature/silver_ore",
+  "features": "integrated_mining:ore_silver_buried_with_gold_spelunkery",
+  "step": "underground_ores"
+}

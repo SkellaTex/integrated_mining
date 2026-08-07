@@ -1,0 +1,32 @@
+{
+  "block.integrated_mining.andesite_spinel_ore": "Andesite Spinel Ore",
+  "block.integrated_mining.diorite_spinel_ore": "Diorite Spinel Ore",
+  "block.integrated_mining.granite_spinel_ore": "Granite Spinel Ore",
+  "block.integrated_mining.tuff_spinel_ore": "Tuff Spinel Ore",
+  "item.integrated_mining.rough_spinel_shard": "Rough Spinel Shard",
+  "item.integrated_mining.rough_spinel": "Rough Spinel",
+  "item.integrated_mining.spinel_shard": "Spinel Shard",
+  "block.integrated_mining.rough_spinel_block": "Rough Spinel Block",
+
+  "block.integrated_mining.andesite_tin_ore": "Andesite Tin Ore",
+  "block.integrated_mining.diorite_tin_ore": "Diorite Tin Ore",
+  "block.integrated_mining.granite_tin_ore": "Granite Tin Ore",
+  "block.integrated_mining.tuff_tin_ore": "Tuff Tin Ore",
+  "item.integrated_mining.raw_tin_nugget": "Raw Tin Nugget",
+
+  "block.integrated_mining.andesite_palladium_ore": "Andesite Palladium Ore",
+  "block.integrated_mining.diorite_palladium_ore": "Diorite Palladium Ore",
+  "block.integrated_mining.granite_palladium_ore": "Granite Palladium Ore",
+  "block.integrated_mining.tuff_palladium_ore": "Tuff Palladium Ore",
+  "item.integrated_mining.raw_palladium_nugget": "Raw Palladium Nugget",
+
+  "item.integrated_mining.crushed_raw_palladium": "Crushed Raw Palladium",
+
+  "item.integrated_mining.palladium_upgrade_smithing_template": "Smithing Template",
+  "item.integrated_mining.palladium_upgrade_smithing_template.description_0": "§7Sterling Upgrade",
+  "item.integrated_mining.palladium_upgrade_smithing_template.description_1": "",
+  "item.integrated_mining.palladium_upgrade_smithing_template.description_2": "§7Applies to:",
+  "item.integrated_mining.palladium_upgrade_smithing_template.description_3": " §9Leather Equipment",
+  "item.integrated_mining.palladium_upgrade_smithing_template.description_4": "§7Ingredients:",
+  "item.integrated_mining.palladium_upgrade_smithing_template.description_5": " §9Palladium Ingot"
+}

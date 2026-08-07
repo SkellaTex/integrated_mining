@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "caverns_and_chasms:silver_horse_armor"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 2,
+      "id": "caverns_and_chasms:silver_ingot"
+    },
+    {
+      "chance": 0.5,
+      "count": 2,
+      "id": "minecraft:leather"
+    },
+    {
+      "chance": 0.5,
+      "count": 2,
+      "id": "caverns_and_chasms:silver_ingot"
+    },
+    {
+      "chance": 0.25,
+      "count": 2,
+      "id": "minecraft:string"
+    },
+    {
+      "chance": 0.25,
+      "count": 8,
+      "id": "caverns_and_chasms:silver_nugget"
+    }
+  ]
+}

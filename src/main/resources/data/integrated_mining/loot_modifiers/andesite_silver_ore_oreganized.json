@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "spelunkery:blocks/andesite_silver_ore"
+    }
+  ],
+  "table": "integrated_mining:blocks/andesite_silver_ore_oreganized"
+}

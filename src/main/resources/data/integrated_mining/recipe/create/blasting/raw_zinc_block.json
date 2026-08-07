@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "create:raw_zinc_block"
+  },
+  "result": {
+    "id": "create:zinc_block"
+  },
+  "experience": 6.3,
+  "cookingtime": 900,
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "smelt_ore_blocks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

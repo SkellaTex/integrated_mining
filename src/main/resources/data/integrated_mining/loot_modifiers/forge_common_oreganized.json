@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "caverns_and_chasms:archaeology/forge_common"
+    }
+  ],
+  "table": "integrated_mining:archaeology/forge_common_oreganized"
+}

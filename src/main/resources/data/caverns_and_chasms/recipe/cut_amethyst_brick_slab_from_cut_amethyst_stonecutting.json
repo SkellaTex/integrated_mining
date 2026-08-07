@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "modid": "galosphere",
+        "type": "neoforge:mod_loaded"
+      }
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "caverns_and_chasms:cut_amethyst"
+  },
+  "result": {
+    "count": 2,
+    "id": "caverns_and_chasms:cut_amethyst_brick_slab"
+  }
+}

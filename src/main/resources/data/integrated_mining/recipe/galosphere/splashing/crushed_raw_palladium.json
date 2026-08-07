@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "integrated_mining:crushed_raw_palladium"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "id": "galosphere:palladium_nugget"
+    }
+  ]
+}

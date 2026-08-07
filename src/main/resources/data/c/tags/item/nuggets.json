@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "integrated_mining:rough_spinel_shard",
+    "integrated_mining:spinel_shard",
+    "integrated_mining:raw_tin_nugget",
+    "integrated_mining:raw_palladium_nugget"
+  ]
+}

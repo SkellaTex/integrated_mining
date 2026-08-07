@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "default_silver"
+      }
+    }
+  ],
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "caverns_and_chasms:ore_silver_soul",
+    "caverns_and_chasms:ore_silver_extra",
+    "caverns_and_chasms:ore_silver_buried_with_gold",
+    "caverns_and_chasms:ore_silver_buried",
+    "caverns_and_chasms:ore_gold_buried_with_silver",
+    "caverns_and_chasms:ore_gold_and_silver_lower"
+  ],
+  "step": "underground_ores"
+}

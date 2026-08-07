@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "galosphere:rose_pink_salt"
+    }
+  ],
+  "results": [
+    {
+      "id": "galosphere:pastel_pink_salt"
+    }
+  ]
+}
