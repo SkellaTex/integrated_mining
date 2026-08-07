@@ -9,15 +9,8 @@
       "type": "neoforge:mod_loaded"
     },
     {
-      "type": "neoforge:not",
-      "value": {
-        "modid": "spelunkery",
-        "type": "neoforge:mod_loaded"
-      }
-    },
-    {
-      "type": "integrated_mining:config",
-      "value": "default_silver"
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
     }
   ],
   "type": "create:crushing",
@@ -30,7 +23,7 @@
   "results": [
     {
       "count": 18,
-      "id": "caverns_and_chasms:silver_nugget"
+      "id": "spelunkery:raw_silver_nugget"
     },
     {
       "chance": 0.75,

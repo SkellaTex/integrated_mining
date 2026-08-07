@@ -13,6 +13,8 @@ public class IMConfig {
 
         @ConfigKey("more_silver")
         public final BooleanValue moreSilver;
+        @ConfigKey("turquoise_oregen")
+        public final BooleanValue turquoiseOreGen;
 
         @ConfigKey("preserved_template_recipe")
         public final BooleanValue preservedTemplateRecipe;
@@ -31,6 +33,7 @@ public class IMConfig {
 
             builder.push("generation_tweaks");
             this.moreSilver = builder.comment("Whether to increase silver ore generation if Oreganized silver is the default").define("More Silver", true);
+            this.turquoiseOreGen = builder.comment("Generates Turquoise ores from Caverns & Chasms if enabled (very rare)").define("Turquoise Ore Generation", false);
             builder.pop();
 
             builder.push("recipe_tweaks");
