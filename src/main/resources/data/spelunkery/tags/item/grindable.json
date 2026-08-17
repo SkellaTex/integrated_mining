@@ -1,0 +1,13 @@
+{
+  "values": [
+    "integrated_mining:rough_spinel",
+    {
+      "id": "galosphere:pink_salt_shard",
+      "required": false
+    },
+    {
+      "id": "minecraft:sulfur_spike",
+      "required": false
+    }
+  ]
+}

@@ -7,7 +7,7 @@ logoBlur=false
 [[mods]]
 modId="integrated_mining"
 displayName="Integrated Mining"
-version="1.0.0"
+version="1.1.0"
 description='''
 Compatibility patch for several mining-related mods
 '''

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "deep_dark_fossil"
+    }
+  ],
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "spelunkery:deep_dark_fossil"
+  ],
+  "step": "underground_ores"
+}

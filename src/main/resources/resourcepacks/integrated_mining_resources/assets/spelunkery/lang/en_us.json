@@ -1,0 +1,11 @@
+{
+  "block.spelunkery.sulfur": "Sulfur Dust",
+  "block.spelunkery.sulfur_block": "Block of Sulfur Dust",
+  "item.spelunkery.rough_cinnabar_shard": "Rough Cinnabar Crystal Shard",
+  "item.spelunkery.rough_cinnabar": "Rough Cinnabar Crystal",
+  "block.spelunkery.rough_cinnabar_block": "Block of Rough Cinnabar Crystal",
+  "item.spelunkery.cinnabar_shard": "Cinnabar Crystal Shard",
+  "item.spelunkery.cinnabar": "Cinnabar Crystal",
+  "block.spelunkery.cinnabar_block": "Block of Cinnabar Crystal",
+  "tooltip.spelunkery.redstone": "Can be obtained by polishing Rough Cinnabar Crystals on a Grindstone"
+}

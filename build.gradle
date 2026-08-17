@@ -130,6 +130,8 @@ dependencies {
     implementation "curse.maven:selene-499980:8510630"
     implementation "maven.modrinth:krskFMfA:oLqPJYV9"
     implementation "curse.maven:advanced-xray-256256:5432850"
+    implementation "curse.maven:vanillabackport-417430:8229724"
+    implementation "curse.maven:platform-997634:8075942"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

@@ -5,8 +5,8 @@
       "type": "neoforge:mod_loaded"
     },
     {
-      "modid": "neoforge:mod_loaded",
-      "type": "caverns_and_chasms"
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
     },
     {
       "type": "integrated_mining:config",

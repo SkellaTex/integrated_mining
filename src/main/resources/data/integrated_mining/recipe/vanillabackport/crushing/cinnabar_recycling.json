@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "vanillabackport",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "integrated_mining:cinnabar_blocks"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "spelunkery:rough_cinnabar"
+    }
+  ]
+}

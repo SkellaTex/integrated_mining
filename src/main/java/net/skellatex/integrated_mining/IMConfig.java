@@ -15,6 +15,10 @@ public class IMConfig {
         public final BooleanValue moreSilver;
         @ConfigKey("turquoise_oregen")
         public final BooleanValue turquoiseOreGen;
+        @ConfigKey("deep_dark_fossil")
+        public final BooleanValue deepDarkFossil;
+        @ConfigKey("nephrite_geode")
+        public final BooleanValue nephriteGeode;
 
         @ConfigKey("preserved_template_recipe")
         public final BooleanValue preservedTemplateRecipe;
@@ -22,7 +26,6 @@ public class IMConfig {
         public final BooleanValue cheaperLeadBolts;
         @ConfigKey("old_rope_ladder")
         public final BooleanValue oldRopeLadder;
-
         @ConfigKey("old_sterling")
         public final BooleanValue oldSterling;
 
@@ -31,9 +34,11 @@ public class IMConfig {
             this.defaultSilver = builder.comment("Determines the default silver (true for Caverns & Chasms, false for Oreganized)").define("Caverns & Chasms Silver", true);
             builder.pop();
 
-            builder.push("generation_tweaks");
+            builder.push("worldgen_tweaks");
             this.moreSilver = builder.comment("Whether to increase silver ore generation if Oreganized silver is the default").define("More Silver", true);
-            this.turquoiseOreGen = builder.comment("Generates Turquoise ores from Caverns & Chasms if enabled (very rare)").define("Turquoise Ore Generation", false);
+            this.turquoiseOreGen = builder.comment("Generates Turquoise ores from Caverns & Chasms if true (very rare)").define("Turquoise Ore Generation", false);
+            this.deepDarkFossil = builder.comment("Disables Spelunkery's deep dark fossils if true").define("Disable Deep Dark Fossils", false);
+            this.nephriteGeode = builder.comment("Disables Spelunkery's nephrite geodes if true").define("Disable Nephrite Geodes", false);
             builder.pop();
 
             builder.push("recipe_tweaks");
@@ -43,7 +48,7 @@ public class IMConfig {
             builder.pop();
 
             builder.push("gameplay_tweaks");
-            this.oldSterling = builder.comment("Brings back the Palladium Smithing Template and old recipes for Sterling armor if enabled").define("Old Sterling Crafing", false);
+            this.oldSterling = builder.comment("Brings back Galosphere's Palladium Smithing Template and old recipes for Sterling armor if enabled").define("Old Sterling Crafing", false);
             builder.pop();
         }
     }

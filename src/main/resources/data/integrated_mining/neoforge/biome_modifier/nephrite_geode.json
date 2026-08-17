@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "nephrite_geode"
+    }
+  ],
+  "type": "neoforge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "spelunkery:nephrite_geode"
+  ],
+  "step": "underground_ores"
+}

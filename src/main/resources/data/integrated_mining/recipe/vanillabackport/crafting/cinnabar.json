@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "vanillabackport",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "spelunkery",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "spelunkery:rough_cinnabar"
+    },
+    "Q": {
+      "item": "spelunkery:sulfur"
+    }
+  },
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:cinnabar"
+  }
+}
