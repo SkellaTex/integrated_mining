@@ -44,5 +44,77 @@
       "caverns_and_chasms:block/tin_ore/step4"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.palladium.break": {
+    "sounds": [
+      {
+        "name": "galosphere:block.palladium.place",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.palladium.fall": {
+    "sounds": [
+      {
+        "name": "galosphere:block.palladium.place",
+        "type": "event"
+      }
+    ]
+  },
+  "block.palladium.hit": {
+    "sounds": [
+      {
+        "name": "galosphere:block.palladium.step",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.palladium.place": {
+    "sounds": [
+      {
+        "name": "galosphere:block/palladium/place1",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "galosphere:block/palladium/place2",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "galosphere:block/palladium/place3",
+        "pitch": 1.4,
+        "volume": 0.7
+      },
+      {
+        "name": "galosphere:block/palladium/place4",
+        "pitch": 1.4,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.palladium.step": {
+    "sounds": [
+      {
+        "name": "galosphere:block/palladium/step1",
+        "volume": 0.65
+      },
+      {
+        "name": "galosphere:block/palladium/step2",
+        "volume": 0.65
+      },
+      {
+        "name": "galosphere:block/palladium/step3",
+        "volume": 0.65
+      },
+      {
+        "name": "galosphere:block/palladium/step4",
+        "volume": 0.65
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   }
 }

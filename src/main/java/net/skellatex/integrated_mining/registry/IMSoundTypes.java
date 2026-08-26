@@ -20,9 +20,19 @@ public class IMSoundTypes {
     public static final Supplier<SoundEvent> TIN_ORE_HIT = registerSoundEvent("block.tin_ore.hit");
     public static final Supplier<SoundEvent> TIN_ORE_FALL = registerSoundEvent("block.tin_ore.fall");
 
+    public static final Supplier<SoundEvent> PALLADIUM_BREAK = registerSoundEvent("block.palladium.break");
+    public static final Supplier<SoundEvent> PALLADIUM_STEP = registerSoundEvent("block.palladium.step");
+    public static final Supplier<SoundEvent> PALLADIUM_PLACE = registerSoundEvent("block.palladium.place");
+    public static final Supplier<SoundEvent> PALLADIUM_HIT = registerSoundEvent("block.palladium.hit");
+    public static final Supplier<SoundEvent> PALLADIUM_FALL = registerSoundEvent("block.palladium.fall");
+
     public static final DeferredSoundType TIN_ORE_SOUNDS = new DeferredSoundType(1f, 1f,
             IMSoundTypes.TIN_ORE_BREAK, IMSoundTypes.TIN_ORE_STEP, IMSoundTypes.TIN_ORE_PLACE,
             IMSoundTypes.TIN_ORE_HIT, IMSoundTypes.TIN_ORE_FALL);
+
+    public static final DeferredSoundType PALLADIUM_SOUNDS = new DeferredSoundType(1f, 1f,
+            IMSoundTypes.PALLADIUM_BREAK, IMSoundTypes.PALLADIUM_STEP, IMSoundTypes.PALLADIUM_PLACE,
+            IMSoundTypes.PALLADIUM_HIT, IMSoundTypes.PALLADIUM_FALL);
 
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {

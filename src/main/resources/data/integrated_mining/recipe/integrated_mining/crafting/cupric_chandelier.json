@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "galosphere",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:ingots/palladium"
+    },
+    "S": {
+      "item": "minecraft:chain"
+    },
+    "X": {
+      "tag": "caverns_and_chasms:cupric_fire_base_blocks"
+    }
+  },
+  "pattern": [
+    "SXS",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "integrated_mining:cupric_chandelier"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "galosphere:block/template_chandelier",
+  "textures": {
+    "base": "galosphere:block/chandelier_base",
+    "base_side": "galosphere:block/chandelier_base_side",
+    "chain": "galosphere:block/chandelier_chain",
+    "fire": "integrated_mining:block/cupric_chandelier_fire",
+    "particle": "galosphere:block/chandelier_base_side"
+  }
+}

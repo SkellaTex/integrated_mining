@@ -12,6 +12,8 @@
     "integrated_mining:andesite_palladium_ore",
     "integrated_mining:diorite_palladium_ore",
     "integrated_mining:granite_palladium_ore",
-    "integrated_mining:tuff_palladium_ore"
+    "integrated_mining:tuff_palladium_ore",
+    "integrated_mining:cupric_chandelier",
+    "integrated_mining:cupric_light_stand"
   ]
 }

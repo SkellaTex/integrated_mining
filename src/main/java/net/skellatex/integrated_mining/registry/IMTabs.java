@@ -15,6 +15,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.orcinus.galosphere.init.GBlocks;
 import net.orcinus.galosphere.init.GItems;
 import net.skellatex.integrated_mining.IMConfig;
 import net.skellatex.integrated_mining.IntegratedMining;
@@ -61,13 +62,19 @@ public class IMTabs {
                 putBefore(event, Items.COAL, IMItems.RAW_PALLADIUM_NUGGET);
             }
         }
-        if (ModList.get().isLoaded(CREATE_ID) && ModList.get().isLoaded(GALOSPHERE_ID)) {
-            if (event.getTabKey().equals(AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())) {
-                event.accept(IMItems.CRUSHED_RAW_PALLADIUM);
+        if (ModList.get().isLoaded(GALOSPHERE_ID)) {
+            if (ModList.get().isLoaded(CREATE_ID)) {
+                if (event.getTabKey().equals(AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())) {
+                    event.accept(IMItems.CRUSHED_RAW_PALLADIUM);
+                }
+                if (IMConfig.COMMON.oldSterling.get() && tab.location().equals(GS_TAB)) {
+                    putBefore(event, GItems.STERLING_HELMET.get(), IMItems.PALLADIUM_UPGRADE_SMITHING_TEMPLATE);
+                }
+                if (ModList.get().isLoaded(CAVERNS_AND_CHASMS_ID) && tab.location().equals(GS_TAB)) {
+                    putAfter(event, GBlocks.SOUL_LIGHT_STAND.get(), IMBlocks.CUPRIC_CHANDELIER);
+                    putAfter(event, IMBlocks.CUPRIC_CHANDELIER.get(), IMBlocks.CUPRIC_LIGHT_STAND);
+                }
             }
-        }
-        if (ModList.get().isLoaded(GALOSPHERE_ID) && IMConfig.COMMON.oldSterling.get() && tab.location().equals(GS_TAB)) {
-            putBefore(event, GItems.STERLING_HELMET.get(), IMItems.PALLADIUM_UPGRADE_SMITHING_TEMPLATE);
         }
     }
 

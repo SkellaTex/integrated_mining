@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "vanillabackport",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "values": [
+  ],
+  "replace": false,
+  "remove": [
+    "minecraft:bundle"
+  ]
+}

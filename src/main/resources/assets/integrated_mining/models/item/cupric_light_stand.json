@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "integrated_mining:block/cupric_light_stand_top_lit"
+  }
+}

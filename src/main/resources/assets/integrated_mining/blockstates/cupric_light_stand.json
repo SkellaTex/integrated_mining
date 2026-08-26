@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower,lit=false": {
+      "model": "galosphere:block/light_stand_bottom"
+    },
+    "half=lower,lit=true": {
+      "model": "galosphere:block/light_stand_bottom"
+    },
+    "half=upper,lit=false": {
+      "model": "galosphere:block/light_stand_top"
+    },
+    "half=upper,lit=true": {
+      "model": "integrated_mining:block/cupric_light_stand_top_lit"
+    }
+  }
+}

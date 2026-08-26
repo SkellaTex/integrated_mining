@@ -3,12 +3,18 @@ package net.skellatex.integrated_mining.registry;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.skellatex.integrated_mining.IntegratedMining;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.*;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.skellatex.integrated_mining.content.block.IMChandelierBlock;
+import net.skellatex.integrated_mining.content.block.IMLightStandBlock;
 
 import java.util.function.Supplier;
 
@@ -46,6 +52,12 @@ public class IMBlocks {
             () -> new Block(Block.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> TUFF_PALLADIUM_ORE = registerBlock("tuff_palladium_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops().sound(SoundType.TUFF)));
+
+    // Galosphere - Caverns & Chasms compat
+    public static final Supplier<Block> CUPRIC_LIGHT_STAND = registerBlock("cupric_light_stand",
+            () -> new IMLightStandBlock(Block.Properties.of().mapColor(MapColor.COLOR_CYAN).requiresCorrectToolForDrops().sound(IMSoundTypes.PALLADIUM_SOUNDS).strength(3.0F, 6.0F).lightLevel((state) -> (Boolean)state.getValue(BlockStateProperties.LIT) && state.getValue(IMLightStandBlock.HALF) == DoubleBlockHalf.UPPER ? 10 : 0).pushReaction(PushReaction.DESTROY).noOcclusion()));
+    public static final Supplier<Block> CUPRIC_CHANDELIER = registerBlock("cupric_chandelier",
+            () -> new IMChandelierBlock(Block.Properties.of().noCollission().requiresCorrectToolForDrops().strength(3.5F).sound(SoundType.LANTERN).lightLevel((state) -> 9).noOcclusion()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

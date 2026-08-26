@@ -22,6 +22,9 @@
 
   "item.integrated_mining.crushed_raw_palladium": "Crushed Raw Palladium",
 
+  "block.integrated_mining.cupric_chandelier": "Cupric Chandelier",
+  "block.integrated_mining.cupric_light_stand": "Cupric Light Stand",
+
   "item.integrated_mining.palladium_upgrade_smithing_template": "Smithing Template",
   "item.integrated_mining.palladium_upgrade_smithing_template.description_0": "§7Sterling Upgrade",
   "item.integrated_mining.palladium_upgrade_smithing_template.description_1": "",

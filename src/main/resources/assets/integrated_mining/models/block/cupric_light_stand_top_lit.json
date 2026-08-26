@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "integrated_mining:block/cupric_light_stand_top_lit"
+  }
+}
