@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "oreganized",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "silver_untarnishing_recipes"
+    }
+  ],
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "oreganized:tarnished_cut_silver_slab"
+    }
+  ],
+  "results": [
+    {
+      "id": "oreganized:blemished_cut_silver_slab"
+    }
+  ]
+}

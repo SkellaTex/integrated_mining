@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "create",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "oreganized",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "silver_tarnishing_recipes"
+    }
+  ],
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "oreganized:silver_bars"
+    }
+  ],
+  "results": [
+    {
+      "id": "oreganized:blemished_silver_bars"
+    }
+  ]
+}

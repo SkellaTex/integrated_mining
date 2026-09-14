@@ -7,6 +7,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "caverns_and_chasms"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "mores"
     }
   ],
   "feature": "integrated_mining:ore_gold_buried_with_silver_spelunkery",

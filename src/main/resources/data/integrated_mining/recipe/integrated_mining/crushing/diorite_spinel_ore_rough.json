@@ -9,21 +9,29 @@
       "type": "neoforge:mod_loaded"
     },
     {
-      "modid": "spelunkery",
-      "type": "neoforge:mod_loaded"
+      "type": "integrated_mining:config",
+      "value": "mores"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "rough_gems"
     }
   ],
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "caverns_and_chasms:soul_silver_ore"
+      "item": "integrated_mining:diorite_spinel_ore"
     }
   ],
-  "processingTime": 100,
+  "processingTime": 250,
   "results": [
     {
-      "count": 18,
-      "id": "spelunkery:raw_silver_nugget"
+      "count": 2,
+      "id": "integrated_mining:rough_spinel"
+    },
+    {
+      "chance": 0.75,
+      "id": "integrated_mining:rough_spinel"
     },
     {
       "chance": 0.75,
@@ -31,7 +39,7 @@
     },
     {
       "chance": 0.125,
-      "id": "minecraft:soul_sand"
+      "id": "minecraft:diorite"
     }
   ]
 }

@@ -11,6 +11,10 @@
     {
       "type": "integrated_mining:config",
       "value": "default_silver"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "mores"
     }
   ],
   "type": "neoforge:add_features",

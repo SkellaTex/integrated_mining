@@ -7,6 +7,10 @@
     {
       "modid": "galosphere",
       "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "mores"
     }
   ],
   "type": "create:crushing",

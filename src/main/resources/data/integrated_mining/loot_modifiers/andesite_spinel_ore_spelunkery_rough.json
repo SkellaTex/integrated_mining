@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "integrated_mining:blocks/andesite_spinel_ore"
+    }
+  ],
+  "table": "integrated_mining:blocks/andesite_spinel_ore_spelunkery_rough"
+}

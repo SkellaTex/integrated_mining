@@ -7,6 +7,10 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "galosphere"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "mores"
     }
   ],
   "type": "minecraft:ore",

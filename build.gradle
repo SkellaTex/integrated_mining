@@ -124,7 +124,7 @@ dependencies {
     implementation "curse.maven:blueprint-382216:8397829"
     implementation "curse.maven:jei-238222:7391682"
     implementation "curse.maven:galosphere-631098:7382684"
-    implementation "curse.maven:oreganized-769203:7707160"
+    implementation "curse.maven:oreganized-769203:8791242"
     implementation "curse.maven:caverns-and-chasms-438005:8155745"
     implementation "curse.maven:create-328085:7963363"
     implementation "curse.maven:selene-499980:8510630"

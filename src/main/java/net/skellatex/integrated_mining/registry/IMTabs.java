@@ -33,33 +33,45 @@ public class IMTabs {
 
         if (tab == CreativeModeTabs.NATURAL_BLOCKS) {
             if (ModList.get().isLoaded(CAVERNS_AND_CHASMS_ID) && ModList.get().isLoaded(SPELUNKERY_ID)) {
-                putBefore(event, Blocks.RAW_GOLD_BLOCK, IMBlocks.ROUGH_SPINEL_BLOCK);
-                putAfter(event, Blocks.DEEPSLATE_DIAMOND_ORE, IMBlocks.ANDESITE_SPINEL_ORE);
-                putAfter(event, IMBlocks.ANDESITE_SPINEL_ORE.get(), IMBlocks.DIORITE_SPINEL_ORE);
-                putAfter(event, IMBlocks.DIORITE_SPINEL_ORE.get(), IMBlocks.GRANITE_SPINEL_ORE);
-                putAfter(event, IMBlocks.GRANITE_SPINEL_ORE.get(), IMBlocks.TUFF_SPINEL_ORE);
-                putAfter(event, IMBlocks.TUFF_SPINEL_ORE.get(), IMBlocks.ANDESITE_TIN_ORE);
-                putAfter(event, IMBlocks.ANDESITE_TIN_ORE.get(), IMBlocks.DIORITE_TIN_ORE);
-                putAfter(event, IMBlocks.DIORITE_TIN_ORE.get(), IMBlocks.GRANITE_TIN_ORE);
-                putAfter(event, IMBlocks.GRANITE_TIN_ORE.get(), IMBlocks.TUFF_TIN_ORE);
+                if (IMConfig.COMMON.roughGems.get()) {
+                    putBefore(event, Blocks.RAW_GOLD_BLOCK, IMBlocks.ROUGH_SPINEL_BLOCK);
+                }
+                if (IMConfig.COMMON.mores.get()) {
+                    putAfter(event, Blocks.DEEPSLATE_DIAMOND_ORE, IMBlocks.ANDESITE_SPINEL_ORE);
+                    putAfter(event, IMBlocks.ANDESITE_SPINEL_ORE.get(), IMBlocks.DIORITE_SPINEL_ORE);
+                    putAfter(event, IMBlocks.DIORITE_SPINEL_ORE.get(), IMBlocks.GRANITE_SPINEL_ORE);
+                    putAfter(event, IMBlocks.GRANITE_SPINEL_ORE.get(), IMBlocks.TUFF_SPINEL_ORE);
+                    putAfter(event, IMBlocks.TUFF_SPINEL_ORE.get(), IMBlocks.ANDESITE_TIN_ORE);
+                    putAfter(event, IMBlocks.ANDESITE_TIN_ORE.get(), IMBlocks.DIORITE_TIN_ORE);
+                    putAfter(event, IMBlocks.DIORITE_TIN_ORE.get(), IMBlocks.GRANITE_TIN_ORE);
+                    putAfter(event, IMBlocks.GRANITE_TIN_ORE.get(), IMBlocks.TUFF_TIN_ORE);
+                }
             }
             if (ModList.get().isLoaded(GALOSPHERE_ID) && ModList.get().isLoaded(SPELUNKERY_ID)) {
-                putAfter(event, Blocks.DEEPSLATE_DIAMOND_ORE, IMBlocks.ANDESITE_PALLADIUM_ORE);
-                putAfter(event, IMBlocks.ANDESITE_PALLADIUM_ORE.get(), IMBlocks.DIORITE_PALLADIUM_ORE);
-                putAfter(event, IMBlocks.DIORITE_PALLADIUM_ORE.get(), IMBlocks.GRANITE_PALLADIUM_ORE);
-                putAfter(event, IMBlocks.GRANITE_PALLADIUM_ORE.get(), IMBlocks.TUFF_PALLADIUM_ORE);
+                if (IMConfig.COMMON.mores.get()) {
+                    putAfter(event, Blocks.DEEPSLATE_DIAMOND_ORE, IMBlocks.ANDESITE_PALLADIUM_ORE);
+                    putAfter(event, IMBlocks.ANDESITE_PALLADIUM_ORE.get(), IMBlocks.DIORITE_PALLADIUM_ORE);
+                    putAfter(event, IMBlocks.DIORITE_PALLADIUM_ORE.get(), IMBlocks.GRANITE_PALLADIUM_ORE);
+                    putAfter(event, IMBlocks.GRANITE_PALLADIUM_ORE.get(), IMBlocks.TUFF_PALLADIUM_ORE);
+                }
             }
         }
 
         if (tab == CreativeModeTabs.INGREDIENTS) {
             if (ModList.get().isLoaded(CAVERNS_AND_CHASMS_ID) && ModList.get().isLoaded(SPELUNKERY_ID)) {
-                putBefore(event, Items.COAL, IMItems.ROUGH_SPINEL_SHARD);
-                putAfter(event, IMItems.ROUGH_SPINEL_SHARD.get(), IMItems.RAW_TIN_NUGGET);
-                putAfter(event, Items.GOLD_NUGGET, IMItems.SPINEL_SHARD);
-                putAfter(event, Items.RAW_GOLD, IMItems.ROUGH_SPINEL);
+                if (IMConfig.COMMON.roughGems.get()) {
+                    putBefore(event, Items.COAL, IMItems.ROUGH_SPINEL_SHARD);
+                    putAfter(event, Items.GOLD_NUGGET, IMItems.SPINEL_SHARD);
+                    putAfter(event, Items.RAW_GOLD, IMItems.ROUGH_SPINEL);
+                }
+                if (IMConfig.COMMON.rawNuggets.get()) {
+                    putBefore(event, Items.COAL, IMItems.RAW_TIN_NUGGET);
+                }
             }
             if (ModList.get().isLoaded(GALOSPHERE_ID) && ModList.get().isLoaded(SPELUNKERY_ID)) {
-                putBefore(event, Items.COAL, IMItems.RAW_PALLADIUM_NUGGET);
+                if (IMConfig.COMMON.rawNuggets.get()) {
+                    putBefore(event, Items.COAL, IMItems.RAW_PALLADIUM_NUGGET);
+                }
             }
         }
         if (ModList.get().isLoaded(GALOSPHERE_ID)) {

@@ -7,6 +7,10 @@
     {
       "modid": "caverns_and_chasms",
       "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "rough_gems"
     }
   ],
   "type": "create:sandpaper_polishing",

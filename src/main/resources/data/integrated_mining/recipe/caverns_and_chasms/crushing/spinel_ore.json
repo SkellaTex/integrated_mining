@@ -7,6 +7,13 @@
     {
       "modid": "caverns_and_chasms",
       "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "integrated_mining:config",
+        "value": "rough_gems"
+      }
     }
   ],
   "type": "create:crushing",

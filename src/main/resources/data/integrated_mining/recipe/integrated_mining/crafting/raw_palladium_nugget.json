@@ -3,6 +3,10 @@
     {
       "modid": "galosphere",
       "type": "neoforge:mod_loaded"
+    },
+    {
+      "type": "integrated_mining:config",
+      "value": "raw_nuggets"
     }
   ],
   "type": "minecraft:crafting_shapeless",
